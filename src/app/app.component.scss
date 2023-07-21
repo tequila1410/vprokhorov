@@ -1,9 +1,11 @@
 .app {
+  background-image: url('/assets/images/bg-ua.jpg');
   .content {
     height: calc(100vh - 60px);
-    background-color: #e0e0e0;
+    //background-color: #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
   }
 }

@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  background-color: white;
+  padding: 0 120px;
+
+  .menu {
+    display: flex;
+
+    &_item {
+      padding: 0 8px;
+
+      .label {
+        cursor: pointer;
+      }
+    }
+  }
+}
